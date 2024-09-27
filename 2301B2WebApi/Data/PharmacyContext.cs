@@ -11,7 +11,7 @@ namespace _2301B2WebApi.Data
             : base(options)
         {
         }
-
+        public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Retailer> Retailers { get; set; }
 
         public virtual DbSet<Company> Companies { get; set; }
